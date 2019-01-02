@@ -22,7 +22,7 @@ p {
   font-size: 0.8em;
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, p, .container {
   padding: 0 200px;
 }
 
@@ -60,10 +60,6 @@ del span {
   color: #45262F;
 }
 
-.container {
-  padding: 0 200px;
-}
-
 .no-pad {
   padding: 0;
 }
@@ -74,4 +70,10 @@ del span {
 
 .social-button:hover {
   color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+  h1, h2, h3, h4, p, .container {
+    padding: 0 20px;
+  }
 }
