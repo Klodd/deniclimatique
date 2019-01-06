@@ -85,6 +85,12 @@ del span {
   color: black;
 }
 
+footer {
+  color: white;
+  font-size: 0.5em;
+  text-align: right;
+}
+
 @media only screen and (max-width: 1000px) {
   h1, h2, h3, h4, p, .container {
     padding: 0 20px;
