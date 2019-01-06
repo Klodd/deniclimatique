@@ -1,5 +1,6 @@
 body {
   font-family: 'Faune', Arial sans-serif; font-size: 2em;
+  /* Faune, Alice Savoie / Cnap*/
 }
 
 h1 {
@@ -35,9 +36,28 @@ h1, h2, h3, h4, p, .container {
 }
 
 
-.title {
+.titre {
   background-color: #C74710;
   line-height: .5em;
+  font-weight: bold;
+}
+
+.titre del {
+  color: #fa6400;
+}
+
+.titre del span {
+  color: black;
+  font-weight: bold;
+}
+
+
+del {
+  color: white;
+}
+
+del span {
+  color: black;
 }
 
 
@@ -45,27 +65,20 @@ h1, h2, h3, h4, p, .container {
   display: inline-block;
 }
 
-
 .bandeau {
-  background-color: #C74710;
-  color: white;
-  padding: 1em 0;
-}
-
-del {
-  color: #C74710;
-}
-
-del span {
-  color: #45262F;
+  background-color: #fa6400;
 }
 
 .no-pad {
   padding: 0;
 }
 
-.social-button {
-  color: white;
+.social {
+  color: #fa6400;
+}
+
+.social a {
+  color: #fa6400;
 }
 
 .social-button:hover {
