@@ -37,7 +37,6 @@ h1, h2, h3, h4, p, .container-examples {
 
 
 .titre {
-  background-color: #C74710;
   font-weight: bold;
 }
 
@@ -61,6 +60,11 @@ del span {
 
 .bandeau {
   background-color: #fa6400;
+}
+
+.bandeau a {
+  color: black;
+  text-decoration: underline;
 }
 
 .no-pad {
